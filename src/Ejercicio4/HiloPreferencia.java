@@ -17,7 +17,7 @@ public class HiloPreferencia extends Thread {
         if (this.nombre.equalsIgnoreCase("Hilo 1") || this.nombre.equalsIgnoreCase("Hilo 3")){
             try {
                 sem.acquire();
-                sleep(500);
+                sleep(50);
                 if (this.nombre.equalsIgnoreCase("Hilo 1")){
                     sem.acquire();
                 }

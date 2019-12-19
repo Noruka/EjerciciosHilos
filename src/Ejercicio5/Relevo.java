@@ -22,11 +22,13 @@ public class Relevo extends Thread{
             sem.acquire();
             System.out.println("Soy el "+this.getName()+", corriendo... ");
             sleep(200);
+
             if(this.getName().equalsIgnoreCase("hilo 4")){
                 System.out.println("Terminé la carrera, soy el ultimo.");
             }else{
             System.out.println("Terminé, pasando el testigo...");
             }
+
             sem.release();
         } catch (InterruptedException e) {
             e.printStackTrace();

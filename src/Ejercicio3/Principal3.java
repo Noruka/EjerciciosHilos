@@ -11,7 +11,7 @@ public class Principal3 {
         vocal u=new vocal(texto, 'u');
 
         try {
-            Thread.sleep(5);
+            Thread.sleep(50);
         } catch (InterruptedException ex) {
             ex.printStackTrace();
         }

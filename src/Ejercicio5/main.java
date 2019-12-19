@@ -25,8 +25,7 @@ public class main {
         System.out.println("Doy la salida!!");
 
 
-        try {
-
+        /*try {
 
             r1.join();
             r2.join();
@@ -35,7 +34,7 @@ public class main {
 
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
+        }*/
 
         System.out.println("Todos los hilos terminados");
 

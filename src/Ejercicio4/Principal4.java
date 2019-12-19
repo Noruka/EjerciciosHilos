@@ -15,7 +15,7 @@ public class Principal4 {
         h2.start();
         h3.start();
 
-        try {
+       /* try {
             h1.join();
             h2.join();
             h3.join();
@@ -23,6 +23,6 @@ public class Principal4 {
             System.out.println("Proceso principal terminado");
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 }
